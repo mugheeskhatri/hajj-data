@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "noto-urdu";
+  src: url("../assets/fonts/NotoNastaliqUrdu-Medium.ttf");
+}
+
+body {
+  direction: rtl !important;
+  font-family: noto-urdu !important;
+}
+
+.a-4 {
+  width: 794px;
+  height: 1050px;
+  border: 1px solid black;
+}
+
+.border-custom {
+  border: 1px solid black;
+}
+
+.word-wrap-custom {
+  word-wrap: break-word !important;
+}
+
+.passportImage {
+  height: 151.18px;
+  width: 113.38px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.form-text{
+  font-size: 13px;
+}
