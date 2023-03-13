@@ -1,5 +1,6 @@
 import { lazy } from "react";
 import DataForm from "../pages/DataForm";
+import HajjData from "../pages/HajjData";
 // use lazy for better code splitting, a.k.a. load faster
 const Dashboard = lazy(() => import("../pages/Dashboard"));
 const Forms = lazy(() => import("../pages/Forms"));
@@ -71,6 +72,10 @@ const routes = [
   {
     path: "/category",
     component: category,
+  },
+  {
+    path: "/hajj-data",
+    component: HajjData,
   },
 ];
 
